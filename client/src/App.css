@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+  display: flex;
+  height: 130px;
+  background-color: white;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.navBarLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.navButton {
+  background-color: #5CC4FF;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  width: 130px;
+}
+.deleteButton {
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  width: 90px;
+}
+
+
+.detailsButton {
+  background-color: #5BB349;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  
+}
+table,
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+}
+
+.storesTable {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.addStore {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightContainer {
+  margin: 10px;
+}
+
+.leftContainer {
+  margin: 10px;
+}
+
+.link:visited {
+  color: blue; /* Set the color for visited links */
+}
+
+.custom-image {
+  width: 12px;
+  height: 12px;
+  margin: 1px;
+  
+}
